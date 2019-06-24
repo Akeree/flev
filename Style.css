@@ -155,6 +155,15 @@ background-color:black;
     min-height: 850px;
     position: relative;
     overflow: hidden;
+    background-color:white;
+
+}
+.About-background4{
+    width: 100vw;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+    background-color:white;
 
 }
 
@@ -167,22 +176,53 @@ width: 130px;
 top: 7%;
 font-family: 'Cantarell', sans-serif;
 font-size: 20px;
+font-weight: 2px;
 z-index: 1;
 color:white;
 opacity: 0.6;
+mix-blend-mode: difference;
 }
-.menu1{
+.logo1{
     height: 33px;
     position: fixed;
-    left: 96%;
+    left: 63%;
     width: 130px;
     top: 40%;
     font-family: 'Cantarell', sans-serif;
     font-size: 20px;
+    font-weight: 2px;
     z-index: 1;
     color:white;
-    
+    opacity: 0.6;
+    mix-blend-mode: difference;
     }
+.menu1{
+    height: 33px;
+    position: fixed;
+    left: 85%;
+    width: 130px;
+    top: 60%;
+    font-family: 'Arvo', serif;
+    font-size: 10px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    z-index: 1;
+    color:white;
+    mix-blend-mode: difference;
+    }
+
+    
+    p{
+font-size: 14px;
+
+
+
+    }
+
+
+.menu1:hover{
+    color:purple;
+}
 
 .text{
  position: absolute;
@@ -281,6 +321,8 @@ list-style-type:none;
     width: 130px;
     top: 7%;
     z-index: 100;
+    opacity: 0.6;
+    mix-blend-mode: difference;
 }
 
 
@@ -417,9 +459,10 @@ z-index: 1;
 .hello-text{
 position: absolute;
 left: 10%;
-top: 40%;
+top: 30%;
 color:black;
 font-size: 30px;
+
 z-index: 1;
 font-family: 'Muli', sans-serif;
 }
@@ -434,8 +477,8 @@ font-family: 'Muli', sans-serif;
     }
 .textp{
     position: absolute;
-    right: 10%;
-    top: 65%;
+    right: 0%;
+    top: 60%;
     color:black;
     font-size: 20px;
     z-index: 1;
@@ -448,6 +491,14 @@ font-family: 'Muli', sans-serif;
         font-size: 15px;
         z-index: 1;
         }
+        .textd{
+            position: absolute;
+            right: 35%;
+            top: 70%;
+            color:white;
+            font-size: 25px;
+            z-index: 1;
+            }
     .texte{
         position: absolute;
         top:100%;
@@ -512,6 +563,30 @@ font-family: 'Muli', sans-serif;
     margin-right: auto;
     display: relative;
     }
+    .main-wrap img {
+        height: auto;
+        width: 19%;
+        top: 20%;
+        opacity: .2;
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    .main-wrap6 {
+        width: 70%;
+        height: 50%;
+        display: relative;
+       
+        }
+
+        .main-wrap6 img {
+            height: 100%;
+            width: 100%;
+            opacity: 1.2;
+            left: 20%;
+            display: inline-block;
+            margin-bottom: 10rem;
+        }
+
     .main-wrap5 {
         width: 100%;
         height: auto;
@@ -575,20 +650,15 @@ font-family: 'Muli', sans-serif;
            
         
         }
-    .main-wrap img {
-        height: auto;
-        width: 19%;
-        top: 20%;
-        opacity: .2;
-        display: inline-block;
-        margin-bottom: 0;
-    }
+  
     .main-wrap2 img {
         display: inline-block;
         height: auto;
         width: 30%;
        opacity: 1.2;
        border-spacing: 2px;
+       margin-left: 1rem;
+       margin-bottom: 1rem;
     
     }
     
@@ -623,9 +693,12 @@ font-family: 'Muli', sans-serif;
     left: 30%;
     color:white;
     top: 40%;
+    font-family: 'Arvo', serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size:55px;
     z-index: 1;
    }
+   
    .menu{
 position: fixed;
 
