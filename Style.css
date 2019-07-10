@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    
 }
 
 
@@ -12,7 +10,6 @@
     background-size: cover;
     align-items: center;
     height: 600px;
- 
 }
 
 
@@ -22,8 +19,7 @@
     background-size: cover;
     align-items: center;
     min-height: 600px;
-   background-color: #fff;
-
+    background-color: #fff;
 }
 
 
@@ -32,9 +28,10 @@
     align-items: center;
     height: 1000px;
     width: 100vw;
-   background-color:black;
-   
+    background-color:black;
 }
+
+
 .background-expertise{
     visibility: visible;
     background-size: cover;
@@ -42,7 +39,7 @@
     align-items: center;
     height: 1700px;
     width: 100vw;
-   background-color:black;
+    background-color:black;
 
 }
 .background-foot{
@@ -59,9 +56,9 @@
     align-items: center;
     height: 100vh;
     background-color: black;
-
-
 }
+
+
 .background-foote{
     visibility: visible;
     background-size: cover;
@@ -70,7 +67,7 @@
     align-items: center;
     height: 100px;
     width: 100vw;
-   background-color:black;
+    background-color:black;
  
 }
 .background-footee{
@@ -81,9 +78,10 @@
     align-items: center;
     height: 130px;
     width: 100vw;
-   background-color:black;
-   
+    background-color:black;
 }
+
+
 .background-section{
     visibility: visible;
     background-size: cover;
@@ -92,7 +90,7 @@
     align-items: center;
     height: 1700px;
     width: 100vw;
-   background-color:black;
+    background-color:black;
 }
 .journal-section{
     visibility: visible;
@@ -102,14 +100,16 @@
     align-items: center;
     min-height: 1200px;
     width: 100vw;
-   background-color:white;
+    background-color:white;
 }
+
 .About-background{
    min-height: 1700px;
     position: relative;
     overflow: hidden;
     background-color:white;
 }
+
 .journal-background{
     min-height: 700px;
      position: relative;
@@ -176,12 +176,12 @@ width: 130px;
 top: 7%;
 font-family: 'Cantarell', sans-serif;
 font-size: 20px;
-font-weight: 2px;
-z-index: 1;
+font-weight: 0.5px;
+z-index: 100;
 color:white;
-opacity: 0.6;
 mix-blend-mode: difference;
 }
+
 .logo1{
     height: 33px;
     position: fixed;
@@ -194,8 +194,10 @@ mix-blend-mode: difference;
     z-index: 1;
     color:white;
     opacity: 0.6;
-    mix-blend-mode: difference;
+ 
     }
+
+
 .menu1{
     height: 33px;
     position: fixed;
@@ -206,26 +208,47 @@ mix-blend-mode: difference;
     font-size: 10px;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    z-index: 1;
+    z-index: 100;
     color:white;
     mix-blend-mode: difference;
     }
 
+    .menu2{
+        height: 33px;
+        position: absolute;
+        left: 5%;
+        width: 130px;
+        top: 50%;
+        font-family: 'Arvo', serif;
+        font-size: 10px;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        color:white;
+        
+        }
+        .blog-wrap {
+            padding-top: 0px;
+            padding-bottom: 150px;
+            margin:  auto;
+            width: 35%;
+            top: 45%;
+            color:black;
+            font-size: 15px;
+            position: relative;
+            
+        }
+
     
     p{
 font-size: 14px;
-
-
-
     }
 
-
 .menu1:hover{
-    color:purple;
+    color:gray;
 }
 
 .text{
- position: absolute;
+    position: absolute;
     top:50%;
     right: 20%;
     font-family: 'Mandali', sans-serif;
@@ -249,7 +272,7 @@ font-size: 14px;
     width: 100vw;
     position: fixed;
     left: 20%;
-    font: 500 normal 60px 'mn';
+    font-size: 60px;
     letter-spacing: 2px;
     line-break: auto;
 }
@@ -259,7 +282,7 @@ font-size: 14px;
     position: fixed;
     left: 20%;
     top: 20%;
-    font: 500 normal 60px 'mn';
+    font-size:60px;
     letter-spacing: 2px;
     line-break: auto;
 
@@ -273,6 +296,7 @@ position: absolute;
 left: 30%;
 top: 0;
 }
+
 .menu-line2{
     width: 700px;
     height: 1px;
@@ -309,8 +333,9 @@ list-style-type:none;
    
 
 .all_works {
-    font: 400 normal 11px/11px 'Graphik';
+    font-size: 11px; 
     text-transform: uppercase;
+    font-family: "Graphik";
     letter-spacing: 2px;
     color: #fff;
     line-height: 0px;
@@ -343,12 +368,7 @@ list-style-type:none;
     top: 12px;
     right: 7px;
 }
-.white-plus{
-    background: white;
-}
-.white-text{
-    color: white;
-}
+
 .hello{
 position: relative;
 left: 10%;
@@ -358,6 +378,7 @@ top: 1%;
 font-size:170px;
 z-index: 1;
 }
+
 .journal{
     position: absolute;
     left: 10%;
@@ -390,6 +411,7 @@ z-index: 1;
     height: 5px;
     width: 5px;
     z-index: 99999;
+    
 }
 .expertise-background2{
     width: 100vw;
@@ -418,9 +440,9 @@ z-index: 1;
     position: relative;
     overflow: hidden;
     background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image:url("images/footer.jpg");
     
 }
@@ -430,9 +452,9 @@ z-index: 1;
     position: relative;
     overflow: hidden;
     background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image:url("images/color.jpg");
     
 }
@@ -462,7 +484,6 @@ left: 10%;
 top: 30%;
 color:black;
 font-size: 30px;
-
 z-index: 1;
 font-family: 'Muli', sans-serif;
 }
@@ -475,6 +496,8 @@ font-family: 'Muli', sans-serif;
     font-size: 15px;
     z-index: 1;
     }
+
+
 .textp{
     position: absolute;
     right: 0%;
@@ -483,6 +506,8 @@ font-family: 'Muli', sans-serif;
     font-size: 20px;
     z-index: 1;
     }
+
+
     .texta{
         position: absolute;
         right: 30%;
@@ -491,6 +516,8 @@ font-family: 'Muli', sans-serif;
         font-size: 15px;
         z-index: 1;
         }
+
+
         .textd{
             position: absolute;
             right: 35%;
@@ -499,6 +526,8 @@ font-family: 'Muli', sans-serif;
             font-size: 25px;
             z-index: 1;
             }
+
+
     .texte{
         position: absolute;
         top:100%;
@@ -508,6 +537,9 @@ font-family: 'Muli', sans-serif;
         font-size: 15px;
         color: rgba(255,255,255,0.8);
     }
+
+
+
     .textf{
         position: absolute;
         top:40%;
@@ -517,6 +549,9 @@ font-family: 'Muli', sans-serif;
         font-size: 15px;
         color: rgba(255,255,255,0.8);
     }
+
+
+
     .textb{
         position: relative;
         padding-top: 40px;
@@ -526,6 +561,8 @@ font-family: 'Muli', sans-serif;
         font-size: 15px;
         color:black;
     }
+
+
     .textc{
         position: relative;
         padding-top: 40px;
@@ -534,6 +571,7 @@ font-family: 'Muli', sans-serif;
         font-family: 'Noto Sans KR', sans-serif;
         font-size: 15px;
         color:black;
+        padding-left: 5px;
     }
     
     
@@ -546,8 +584,9 @@ font-family: 'Muli', sans-serif;
             z-index: 1;
             }
 
+
 .hello-texts{
-    position: relative;
+   position: relative;
    left: 35%;
    top: 15%;
    color:black;
@@ -556,6 +595,8 @@ font-family: 'Muli', sans-serif;
    z-index: 1;
     
 }
+
+
     .main-wrap {
     width: 80%;
     height: 30%;
@@ -563,6 +604,8 @@ font-family: 'Muli', sans-serif;
     margin-right: auto;
     display: relative;
     }
+
+
     .main-wrap img {
         height: auto;
         width: 19%;
@@ -571,12 +614,13 @@ font-family: 'Muli', sans-serif;
         display: inline-block;
         margin-bottom: 0;
     }
+
+
     .main-wrap6 {
         width: 70%;
         height: 50%;
         display: relative;
-       
-        }
+           }
 
         .main-wrap6 img {
             height: 100%;
@@ -588,31 +632,53 @@ font-family: 'Muli', sans-serif;
         }
 
     .main-wrap5 {
-        width: 100%;
+        width: 70%;
         height: auto;
-      display: relative;
-      margin-right: auto;
-      margin-left: 15%;
+        display: relative;
+        margin-right: auto;
+        margin-left: 15%;
+        
         }
-        .main-wrap5 img {
-            height: 60%;
-            width: 35%;
-          opacity: 1.2;
+
+
+        .main-wrap5 .img-wrapper {
+            position: relative;
+            height: 90%;
+            width: 40%;
+            opacity: 1.2;
             display: inline-block;
+            margin-left: 2rem;
             margin-bottom: 10rem;
+            overflow: hidden;
+            
         }
+
+        .img-wrapper img{
+            width: 100%;
+            height: 100%;
+            transition: transform 2s ease-in;
+        }
+        
+        .main-wrap5 img:hover{
+            transform: scale(1.09)
+        }
+   
         .main-wrap5 img:nth-of-type(2n-1){
             margin-right: 2rem;
         }
+
+
     .main-wrap3 {
         width: 100%;
         height: 30%;
         margin-left: auto;
         margin-right: auto;
         display: relative;
-       margin-left: 30%;
+        margin-left: 30%;
      
         }
+
+
         .main-wrap4 {
             width: 80%;
             height: 20%;
@@ -622,6 +688,8 @@ font-family: 'Muli', sans-serif;
        
          
             }
+
+
             .main-wrap4 img {
                 height: auto;
                 width: 20%;
@@ -631,15 +699,19 @@ font-family: 'Muli', sans-serif;
                 margin-bottom: 0;
             
             }
+
+
     .main-wrap2 {
         width: 80%;
         height: 40%;
-       margin-left: auto;
+        margin-left: auto;
         margin-right: auto;
         display: relative;
         
         
         }
+
+
         .main-wrap3 img {
             height: auto;
             width: 20%;
@@ -647,21 +719,20 @@ font-family: 'Muli', sans-serif;
             opacity: .2;
             display: inline-block;
             margin-bottom: 0;
-           
-        
         }
+
   
     .main-wrap2 img {
         display: inline-block;
         height: auto;
         width: 30%;
-       opacity: 1.2;
-       border-spacing: 2px;
-       margin-left: 1rem;
-       margin-bottom: 1rem;
-    
+        opacity: 1.2;
+        border-spacing: 2px;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
     }
     
+
     .hello-text1{
     position: absolute;
     left: 20%;
@@ -672,6 +743,8 @@ font-family: 'Muli', sans-serif;
     font-family: 'Muli', sans-serif;
     font-family: 'PT Sans Narrow', sans-serif;
    }
+
+
    .hello-text2{
     position: absolute;
     left: 20%;
@@ -680,6 +753,8 @@ font-family: 'Muli', sans-serif;
     font-size:35px;
     z-index: 1;
    }
+
+
    .hello-text3{
     position: absolute;
     left: 20%;
@@ -688,6 +763,8 @@ font-family: 'Muli', sans-serif;
     font-size:35px;
     z-index: 1;
    }
+
+
    .about-text1{
     position: absolute;
     left: 30%;
@@ -698,15 +775,15 @@ font-family: 'Muli', sans-serif;
     font-size:55px;
     z-index: 1;
    }
+
    
    .menu{
 position: fixed;
-
-
-
-
    }
-   .ux-text{
+
+
+
+   .ux-text1{
     position: absolute;
     left: 20%;
     color:white;
@@ -714,6 +791,8 @@ position: fixed;
     font-size:35px;
     z-index: 1;
    }
+
+
    .about-text3{
     position: absolute;
     left: 30%;
@@ -722,6 +801,8 @@ position: fixed;
     font-size:55px;
     z-index: 1;
    }
+
+
    .about-text4{
     position: absolute;
     left: 20%;
@@ -730,6 +811,7 @@ position: fixed;
     font-size:35px;
     z-index: 1;
    }
+
 
    .about-text2{
     position: absolute;
@@ -753,6 +835,8 @@ position: fixed;
     top:45%;
     left: 20%;
 }
+
+
 .split2{
     font: 400 normal 11px/11px 'Graphik';
     text-transform: uppercase;
@@ -773,7 +857,7 @@ footer {
 
 }
 
-
+/* 
 @keyframes slider {
     0%{left: 0;}
     11.4286%{left: 0;}
@@ -790,7 +874,7 @@ footer {
     85.7056%{left: -400vw;}
     97.1342%{left: -400;}
 
-}
+} */
 
 
 .moving {
@@ -800,6 +884,8 @@ footer {
     animation-iteration-count: infinite; 
     
 }
+
+
    .text1{
    position:fixed;
    right: 70%;
@@ -807,7 +893,8 @@ footer {
    color:white;
    font-size: 45px;
    font-variant: 20px;
-  }
+  
+}
   .text-slides{
     position:fixed;
     right: 53%;
@@ -817,6 +904,7 @@ footer {
     color:white;
     font-size: 45px;
     font-variant: 20px;
+    font-family: 'Heebo', sans-serif;
    }
    
 
@@ -837,17 +925,25 @@ footer {
 }
 .expertise-text4{
     position: absolute;
-    left: 8%;
+    left: 2%;
     color:black;
     top: 90%;
     font-size: 25px;
 }
+.ui-text{
+    position: relative;
+    left: 2%;
+    color:black;
+    top: 90%;
+    font-size: 35px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
 .label{
     mix-blend-mode: difference;
     position: absolute;
     padding-left: 20%;
-   
-    z-index: 2
+    z-index: 2;
     
 
 }
@@ -856,6 +952,8 @@ footer {
     z-index: 1;
     overflow: hidden;
 }
+
+
 
 
 
