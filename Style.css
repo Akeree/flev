@@ -241,6 +241,9 @@ mix-blend-mode: difference;
     
     p{
 font-size: 14px;
+font-family: 'Mandali', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+top: 60%;
     }
 
 .menu1:hover{
@@ -583,6 +586,18 @@ font-family: 'Muli', sans-serif;
             font-size: 15px;
             z-index: 1;
             }
+            
+        .journal1{
+            position: absolute;
+            left: 15%;
+            top: 30%;
+            color:white;
+            font-size: 15px;
+            z-index: 100;
+            mix-blend-mode: difference;
+            font-family: 'Mandali', sans-serif;
+            font-family: 'Noto Sans KR', sans-serif;
+            }
 
 
 .hello-texts{
@@ -656,7 +671,7 @@ font-family: 'Muli', sans-serif;
         .img-wrapper img{
             width: 100%;
             height: 100%;
-            transition: transform 2s ease-in;
+            transition: transform 1s ease-in;
         }
         
         .main-wrap5 img:hover{
@@ -823,6 +838,17 @@ position: fixed;
     mix-blend-mode: difference;
     z-index: 1;
    }
+   .journal-text2{
+    position: absolute;
+    left: 30%;
+    color:white;
+    top: 10%;
+    font-size:15px;
+    font-family: 'Hind Madurai', sans-serif;
+    mix-blend-mode: difference;
+    z-index: 1;
+
+   }
 
 
 .split{
@@ -906,6 +932,7 @@ footer {
     font-variant: 20px;
     font-family: 'Heebo', sans-serif;
    }
+
    
 
   .expertise-text2{
