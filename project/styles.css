@@ -1,0 +1,15 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.wrap {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 30%;
+  height: 200px;
+  border: 1px solid red;
+}
+/*# sourceMappingURL=styles.css.map */

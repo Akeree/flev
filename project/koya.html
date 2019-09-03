@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="kstyle.css">
+</head>
+
+<body>
+    <main id="main">
+        <section>
+            <div class="sticky-flex">
+                <div class="lhs-flex mb-3">
+                    <div class="bg-course-main">
+                        <div class="absolute-right">
+                            <!-- <img src="/uploads/users/girl.png" alt="" class="" style="height: max-content"> -->
+                            <svg class="icon-course">
+                                <use href="/my project/project/icons.svg#course"></use>
+                                
+                            </svg>
+                            <svg width="292" height="209" viewBox="0 0 292 209" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path d="M83.6402 225.506C76.4806 222.965 70.3218 217.692 66.7804 210.994C65.7796 209.146 64.9713 207.029 65.2793 204.951C65.3562 204.527 65.4717 204.027 65.8567 203.834C66.2031 203.642 66.665 203.757 67.0499 203.873C79.0211 207.299 91.6467 212.957 104.272 212.572C104.85 212.572 105.427 212.534 105.927 212.765C106.543 213.034 106.928 213.611 107.198 214.227C108.121 216.229 108.891 220.001 108.545 222.234C108.121 224.89 105.542 225.236 103.271 225.775C96.8047 227.315 90.03 227.777 83.6402 225.506Z" fill="#072A3D"/>
+                                <path d="M244.501 167.228C244.578 167.459 244.655 167.69 244.732 167.921C246.348 172.848 247.58 177.929 248.042 183.125C248.889 192.671 246.849 203.796 239.574 210.609C229.874 219.693 214.515 220.886 202.082 218.5C197.001 217.538 192.189 215.305 188.186 212.072C184.067 215.69 179.641 219.655 175.946 223.696C168.709 221.04 161.78 217.461 155.429 213.072C140.109 219.809 124.519 224.274 108.083 227.43C106.274 222.734 105.042 217.846 104.388 212.88C104.272 212.072 114.588 205.335 115.782 204.373C119.361 201.448 126.829 194.75 126.829 194.75C126.829 194.75 117.668 186.705 113.665 182.933C109.43 179.007 105.35 174.888 101.501 170.615C98.306 167.074 95.1881 163.34 93.2634 158.952C91.3388 154.602 90.6845 149.483 92.4166 145.018C97.8826 131.122 119.015 136.357 128.792 141.322C136.876 145.441 143.92 151.369 150.694 157.374C153.427 159.76 156.122 162.224 158.778 164.649C160.933 162.493 163.32 159.683 165.36 157.412C167.554 154.949 170.056 152.639 173.059 151.215C176.215 149.675 179.102 149.945 182.451 149.521C183.952 149.329 185.415 148.905 186.877 148.674C191.266 147.943 195.885 148.867 199.695 151.176C203.314 153.37 206.239 155.949 210.512 156.835C215.362 157.836 221.02 157.374 225.909 156.796C230.297 156.257 234.762 155.334 239.112 156.257C240.921 156.642 241.575 159.183 242.153 160.646C242.923 162.763 243.731 164.957 244.501 167.228Z" fill="#595E70"/>
+                                <path d="M185.377 23.381C185.223 24.1508 185.184 24.9592 185.223 25.883C185.453 31.2719 186.531 36.6224 188.417 41.6649C189.572 44.6674 190.996 47.6313 193.036 50.1333C193.883 51.1726 194.846 52.1349 196.116 52.5199C197.425 52.9048 199.08 52.9818 200.389 52.6738C201.466 57.4469 200.85 66.4157 196.693 69.726C195.423 70.7269 193.922 71.3427 192.421 71.8816C189.495 72.9594 186.454 73.7678 183.413 74.3836C179.949 75.0765 176.177 75.5769 173.713 78.0789C173.405 78.3869 173.097 78.8103 173.213 79.2337C173.29 79.5032 173.482 79.6956 173.713 79.8496C175.599 81.4278 177.947 82.3131 180.295 83.16C184.414 84.6227 188.648 85.8544 192.96 86.7013C197.463 87.5866 202.121 88.0485 206.701 87.6251C210.243 87.2787 213.746 86.4318 216.979 84.8921C220.366 83.2754 223.831 81.9667 227.333 80.427C230.297 79.1182 233.223 77.617 236.418 77.1166C234.955 74.2297 231.837 72.5745 228.719 71.7662C225.601 70.9963 222.329 70.8808 219.173 70.2264C218.134 69.9955 217.094 69.726 216.209 69.0717C213.784 67.2625 214.515 63.3363 214.515 60.7573C214.515 58.0243 214.515 55.2913 214.515 52.5968C214.939 48.7091 216.594 45.4757 218.057 41.9344C220.289 36.5069 220.828 30.3096 219.019 24.6897C217.21 19.1083 212.976 14.2197 207.471 12.1796C201.967 10.1395 195.308 11.1403 190.996 15.1435C188.263 17.7225 186.031 20.0321 185.377 23.381Z" fill="#B9715F"/>
+                                <path d="M213.784 26.4604C212.899 27.1532 212.129 28.0001 211.551 28.9624C212.36 27.6151 214.477 27.8076 215.362 28.8854C216.478 30.3096 216.055 32.3882 215.17 33.8125C214.207 35.3907 212.745 36.6224 211.782 38.1621C209.011 42.5888 211.32 49.5174 215.901 51.7885C218.48 53.0588 221.482 53.2897 224.331 52.9433C228.873 52.4429 233.492 50.5182 236.187 46.7845C238.65 43.3201 239.112 38.5086 237.303 34.6208C235.494 30.7715 231.49 28.0001 227.256 27.6921C229.951 23.227 230.028 17.6456 228.873 12.5645C228.142 9.36966 226.871 6.21326 224.6 3.86521C222.637 1.8636 220.058 0.554858 217.364 -0.253486C208.934 -2.71701 199.234 0.015962 193.306 6.48272C191.92 8.02242 190.727 9.75459 189.611 11.4868C187.455 14.8741 185.569 18.4539 184.376 22.3032C182.104 29.5783 182.028 38.547 184.876 45.7067C183.336 40.7796 182.797 35.5446 183.259 30.4251C183.298 29.8862 183.375 29.3473 183.567 28.8854C184.26 27.1532 186.377 26.2294 187.57 24.8052C188.918 23.1885 189.918 21.2639 190.534 19.2623C191.651 21.7643 195.307 23.6504 197.732 24.6512C202.737 26.7298 208.395 27.4227 213.784 26.4604Z" fill="#072A3D"/>
+                                <path d="M194.653 33.312C194.73 35.9295 194.691 38.547 194.499 41.126C195.384 41.0106 196.27 40.7026 197.078 40.3177" stroke="#072A3D" stroke-miterlimit="10"/>
+                                <path d="M200.504 46.515C201.466 45.8991 202.275 45.0908 202.89 44.1285" stroke="#072A3D" stroke-miterlimit="10"/>
+                                <path d="M175.984 76.9242C175.253 76.5778 174.367 76.8087 173.867 77.4631C168.247 85.0846 165.976 94.7078 163.974 103.984C161.703 114.531 159.663 125.117 157.7 135.702C157.584 136.241 157.507 136.819 157.738 137.319C157.969 137.819 158.508 138.089 159.009 138.32C162.165 139.898 165.36 141.438 168.516 143.016C172.058 135.279 174.675 127.08 176.253 118.727C178.216 123.924 181.835 128.466 186.492 131.468C182.913 136.434 178.447 146.403 174.175 150.753C173.52 151.446 169.556 150.291 168.67 149.983C168.093 151.561 170.71 149.906 170.672 151.523C173.058 151.908 176.138 150.522 178.601 150.253C181.565 149.945 184.568 149.983 187.532 150.33C192.459 150.945 197.232 152.562 201.581 154.949C203.737 156.142 205.816 157.489 207.779 158.99C209.472 160.299 213.668 163.379 213.668 163.379C213.976 163.61 215.439 163.302 215.785 163.225C216.786 163.071 217.787 162.955 218.826 162.878C221.367 162.724 223.946 162.416 226.448 161.993C231.49 161.146 236.456 159.799 241.229 157.913C241.691 157.566 240.113 154.179 240.036 153.524C240.113 154.14 249.466 153.524 250.39 153.37C254.085 152.678 257.819 152.331 261.514 151.6C260.09 136.742 255.779 122.345 251.545 108.065C249.89 102.445 248.196 96.8249 245.809 91.5129C243.269 85.8545 239.959 80.5425 235.955 75.8079C235.84 75.6924 235.647 75.6154 235.493 75.6539C233.53 76.1158 221.559 79.0028 215.593 81.1199C212.552 82.2362 209.472 83.237 206.355 84.2378C205.123 84.6227 203.853 85.0076 202.582 84.9691C201.735 84.9307 200.889 84.7382 200.08 84.5457C191.843 82.5826 183.605 80.4655 175.984 76.9242Z" fill="#FAAA4B"/>
+                                <path d="M229.334 107.295C229.642 109.412 230.066 111.567 230.489 113.685C231.529 118.496 232.876 123.231 234.531 127.85C235.378 130.159 236.263 132.43 237.264 134.702C237.764 135.818 238.265 136.934 238.804 138.05C239.073 138.589 239.343 139.167 239.612 139.706C239.843 140.168 240.112 140.591 240.343 141.014C238.688 140.937 237.033 141.014 235.339 141.13" stroke="#F26C5D" stroke-miterlimit="10"/>
+                                <path d="M228.527 143.054C228.681 144.132 228.873 145.21 229.104 146.288C229.335 147.366 229.566 148.443 229.797 149.521C230.028 150.445 230.567 151.6 230.567 152.562C230.567 152.37 224.023 151.715 223.407 151.638C216.594 150.868 209.742 150.368 202.929 149.829C198.503 149.483 194.153 149.521 189.726 149.483C188.417 149.483 186.878 149.329 186.185 148.251C185.608 147.327 186.108 146.172 185.646 145.326C185.338 145.403 181.758 146.249 181.797 146.172C181.643 146.981 181.335 148.674 180.488 149.059C180.18 149.175 179.872 149.213 179.564 149.213C179.102 149.213 178.64 149.136 178.178 149.059C178.101 149.059 178.024 149.021 177.986 148.982C177.909 148.905 177.986 148.79 178.063 148.674C179.141 147.135 179.718 145.287 179.718 143.439C180.834 142.708 181.951 141.861 182.913 140.937C183.683 140.168 184.26 139.167 185.107 138.512C185.992 137.781 186.839 138.243 187.802 138.512C188.918 138.782 190.034 139.09 191.112 139.436C193.229 140.129 195.346 140.976 197.117 142.323C197.733 142.785 198.31 143.285 199.041 143.516C199.734 143.747 200.504 143.747 201.236 143.747C205.739 143.709 210.243 143.555 214.708 143.131C219.289 142.708 222.406 142.824 228.411 142.015C228.411 142.054 228.411 142.4 228.527 143.054Z" fill="#B9715F"/>
+                                <path d="M150.579 157.335C146.884 154.063 143.15 150.83 139.185 147.905C130.948 151.061 123.634 156.334 116.783 161.954C112.356 165.611 107.968 169.499 104.965 174.387C107.737 177.313 110.624 180.123 113.549 182.856C117.591 186.628 126.714 194.673 126.714 194.673C126.714 194.673 126.56 194.827 126.252 195.096C128.061 193.749 129.793 192.287 131.448 190.824C138.3 184.857 144.805 178.468 151.195 172.001C153.428 169.73 156.237 167.228 158.432 164.456C155.891 162.031 153.235 159.683 150.579 157.335Z" fill="url(#paint0_linear)"/>
+                                <path d="M214.515 164.418C220.558 169.037 225.832 174.618 230.105 180.893" stroke="#0A2A3C" stroke-miterlimit="10"/>
+                                <path d="M188.417 212.264C188.417 212.264 188.417 212.226 188.417 212.264C188.378 212.226 188.378 212.226 188.378 212.226C188.263 212.033 188.186 211.879 188.109 211.725C186.877 209.531 185.838 207.26 184.721 205.028C183.759 203.064 182.643 201.14 181.488 199.254C177.947 201.217 174.29 203.026 170.749 204.912C165.437 207.761 160.086 210.532 154.697 213.226C154.466 213.342 154.197 213.496 153.966 213.65C154.428 213.457 154.89 213.265 155.352 213.072C161.703 217.461 168.632 221.04 175.868 223.696C179.563 219.655 183.99 215.69 188.109 212.072C188.224 212.11 188.301 212.187 188.417 212.264Z" fill="url(#paint1_linear)"/>
+                                <path d="M192.574 215.844C198.387 213.457 204.276 211.071 210.55 210.647C219.865 209.993 228.834 213.765 237.341 217.615C245.848 221.464 254.586 225.583 263.901 225.66C273.678 225.737 282.993 221.348 291 215.728" stroke="#36C2DB" stroke-width="2" stroke-miterlimit="10"/>
+                                <path d="M178.524 106.448C177.639 110.028 176.984 113.646 176.522 117.341" stroke="#F26C5D" stroke-miterlimit="10"/>
+                                <path d="M88.8365 97.0558L101.154 156.18H201.504C201.504 152.716 198.694 149.868 195.192 149.868H171.211L160.086 95.4776C159.74 93.7069 158.162 92.4367 156.391 92.4367H92.5703C90.1453 92.4752 88.3361 94.6692 88.8365 97.0558Z" fill="#072A3D"/>
+                                <path d="M102.795 -13.5179L75.332 42.7548L131.605 70.218L159.068 13.9453L102.795 -13.5179Z" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M78.084 37.1574L134.341 64.5949" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M80.814 31.5247L137.106 58.9968" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M83.5781 25.8921L139.835 53.3642" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M86.3081 20.2594L142.6 47.7315" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M89.0728 14.6268L145.33 42.0989" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M91.8027 8.99414L148.095 36.4663" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M94.5674 3.39606L150.825 30.8336" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M97.2974 -2.2366L153.589 25.201" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M100.062 -7.86923L156.319 19.6029" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M154.384 11.6895L126.912 67.9469" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M149.684 9.37425L122.212 65.6662" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M145.019 7.09355L117.547 63.3855" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M140.319 4.81285L112.847 61.0702" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M135.62 2.53215L108.147 58.7895" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M130.92 0.216873L103.482 56.5088" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M126.255 -2.06383L98.7832 54.2281" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M121.556 -4.3445L94.0835 51.9129" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M116.856 -6.62523L89.4185 49.6321" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M112.191 -8.94048L84.7188 47.3514" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M107.491 -11.2212L80.019 45.0707" stroke="#21B787" stroke-miterlimit="10"/>
+                                <path d="M60.564 88.7989L43.877 101.337L55.1692 116.366L71.8563 103.828L60.564 88.7989Z" stroke="#F26C5D" stroke-miterlimit="10"/>
+                                <path d="M51.3833 111.335L68.0739 98.7906" stroke="#F26C5D" stroke-miterlimit="10"/>
+                                <path d="M47.6167 106.324L64.3073 93.8145" stroke="#F26C5D" stroke-miterlimit="10"/>
+                                <path d="M43.8501 101.347L60.5407 88.8034" stroke="#F26C5D" stroke-miterlimit="10"/>
+                                <path d="M60.5405 88.8039L71.8404 103.801" stroke="#F26C5D" stroke-miterlimit="10"/>
+                                <path d="M56.4976 91.7067L67.6592 106.946" stroke="#F26C5D" stroke-miterlimit="10"/>
+                                <path d="M52.3164 94.8513L63.478 110.091" stroke="#F26C5D" stroke-miterlimit="10"/>
+                                <path d="M48.1353 97.9613L59.2969 113.201" stroke="#F26C5D" stroke-miterlimit="10"/>
+                                <path d="M53.7945 25.1693L15.9028 37.1468L27.8803 75.0384L65.772 63.0609L53.7945 25.1693Z" fill="#21B787"/>
+                                <rect x="11.0244" y="-5.64738" width="83.6258" height="100.558" fill="url(#pattern0)"/>
+                                <path d="M12.0924 25.0561L0 28.8785L3.82238 40.9709L15.9147 37.1485L12.0924 25.0561Z" fill="#FAAA4B"/>
+                                <path d="M62.3428 9.193L50.2505 13.0154L54.0729 25.1078L66.1652 21.2854L62.3428 9.193Z" fill="#FAAA4B"/>
+                                <path d="M27.6124 75.1329L15.52 78.9553L19.3424 91.0476L31.4348 87.2253L27.6124 75.1329Z" fill="#FAAA4B"/>
+                                <path d="M77.8624 59.2698L65.77 63.0922L69.5924 75.1845L81.6848 71.3622L77.8624 59.2698Z" fill="#FAAA4B"/>
+                                <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0"/>
+                                </pattern>
+                                <linearGradient id="paint0_linear" x1="131.698" y1="147.905" x2="131.698" y2="195.096" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#595E70"/>
+                                <stop offset="1" stop-color="#0A2A3C" stop-opacity="0"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear" x1="171.191" y1="199.254" x2="171.191" y2="223.696" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#595E70"/>
+                                <stop offset="1" stop-color="#0A2A3C" stop-opacity="0"/>
+                                </linearGradient>
+                                <image id="image0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAEkCAYAAAD6ugccAAAACXBIWXMAAAsSAAALEgHS3X78AAAA"/>
+                                </defs>
+                                </svg>
+                                
+                        </div>
+                        <div class="pos-rel z-depth-1 wrapper-x wrapper-y ">
+                            <p class="na-md-text  co-white">
+                                COURSE
+                            </p>
+                            <h1 class="co-white lg-sm-text">
+                               Digital signaling processing
+                            </h1>
+                          <div class="co-white font-18 coursecode">
+                              <span>EIE 515</span>
+                          </div>
+                          <div class="co-white font-14 coursetitle">
+                            <span> 3 units</span>
+                        </div>
+                           
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="">
+                            <ul class="mb-0 uk-tab" data-uk-tab="{connect:'#my-id'}">
+                                <li class="uk-active" aria-expanded="true"><a href="#">Lessons</a></li>
+                                <li class="" aria-expanded="false"><a href="#">Resources</a></li>
+                                <li class="" aria-expanded="false"><a href="#">Assessments 
+                                    <span class="counter co-white">12</span>
+                                </a></li>
+                                <li class="" aria-expanded="false"><a href="#">Assignments</a></li>
+                                <li class="" aria-expanded="false"><a href="#">Discussions</a></li>
+                                <li class="" aria-expanded="false"><a href="#">About</a></li>
+                            </ul>
+                            <ul id="my-id" class="uk-switcher border-bend tab-scroll bg-white">
+                                <li class="uk-active"><a href="#" id="autoplayer" data-uk-switcher-item="next"></a>
+                                    <section class="">
+                                        <div class="lesson-number wrap">
+                                            <h1 class="mb-0 ">3 <span class=" co-lightgray font-14">Lessons have been
+                                                    added to this course</span></h1>
+                                        </div>
+                                        <div class="bdr-top wrap mb-2 Single-Lesson">
+                                            <p class="font-18 ff-medium mt-1h co-blacklite mb-0">Foundations</p>
+                                            <p class="font-14">3 Files</p>
+                                            <div class="lesson-card mt-2">
+                                                <div class="icontxt-frame">
+                                                    <div class="d-flx al-i-c">
+                                                        <svg class="icon-24">
+                                                            <use href="/uploads/icons.svg#video-play"></use>
+                                                        </svg>
+                                                        <div class="suffix is-wider">
+                                                            <p class="prefix is-wide co-black font-14 ff-medium">
+                                                                Introduction to Digital Filters
+                                                            </p>
+                                                            <p
+                                                                class="prefix is-wide co-readablegray font-14 ff-regular">
+                                                                Video
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <button class="btn btn-download">
+                                                        <svg class="icon-16">
+                                                            <use href="/uploads/icons.svg#download"></use>
+                                                        </svg>
+                                                        <span class="suffix">
+                                                            Download
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                                <div class="icontxt-frame bdr-top">
+                                                    <div class="d-flx al-i-c">
+                                                        <svg class="icon-24">
+                                                            <use href="/uploads/icons.svg#pdf"></use>
+                                                        </svg>
+                                                        <!-- <img src="/uploads/users/ib.png" alt="avatar" class="avatar is-tiny"> -->
+                                                        <div class="suffix is-wider">
+                                                            <p class="prefix is-wide co-black font-14 ff-medium">
+                                                                The Breadth and Depth of DSP
+                                                            </p>
+                                                            <p
+                                                                class="resource-type prefix is-wide co-readablegray font-14 ff-regular">
+                                                                Pdf
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <button class="btn btn-download">
+                                                        <svg class="icon-16">
+                                                            <use href="/uploads/icons.svg#download"></use>
+                                                        </svg>
+                                                        <span class="suffix">
+                                                            Download
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                                <div class="icontxt-frame bdr-top ">
+                                                    <div class="d-flx al-i-c">
+                                                        <svg class="icon-24">
+                                                            <use href="/uploads/icons.svg#pdf"></use>
+                                                        </svg>
+                                                        <!-- <img src="/uploads/users/ib.png" alt="avatar" class="avatar is-tiny"> -->
+                                                        <div class="suffix is-wider">
+                                                            <p class="prefix is-wide co-black font-14 ff-medium">
+                                                                The Breadth and Depth of DSP
+                                                            </p>
+                                                            <p
+                                                                class="resource-type prefix is-wide font-14 ff-regular co-readablegray">
+                                                                Pdf
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <button class="btn btn-download">
+                                                        <svg class="icon-16">
+                                                            <use href="/uploads/icons.svg#download"></use>
+                                                        </svg>
+                                                        <span class="suffix">
+                                                            Download
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </li>
+                                <li>
+                                    <section class="">
+                                        <div class="lesson-number wrap">
+                                            <h1 class="mb-0 ">2 <span class=" co-lightgray font-14">Lessons have been
+                                                    added to this course</span></h1>
+                                        </div>
+                                        <div class="mb-2 Resource-list">
+                                            <div class="mt-2">
+                                                <div class="icontxt-frame bdr-top">
+                                                    <div class="d-flx al-i-c">
+                                                        <svg class="icon-24">
+                                                            <use href="/uploads/icons.svg#video-play"></use>
+                                                        </svg>
+                                                        <div class="suffix is-wider">
+                                                            <p class="prefix is-wide co-black font-14 ff-medium">
+                                                                Introduction to Digital Filters
+                                                            </p>
+                                                            <p
+                                                                class="prefix is-wide co-readablegray font-14 ff-regular">
+                                                                Video
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <button class="btn btn-download">
+                                                        <svg class="icon-16">
+                                                            <use href="/uploads/icons.svg#download"></use>
+                                                        </svg>
+                                                        <span class="suffix">
+                                                            Download
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                                <div class="icontxt-frame bdr-top ">
+                                                    <div class="d-flx al-i-c">
+                                                        <svg class="icon-24">
+                                                            <use href="/uploads/icons.svg#pdf"></use>
+                                                        </svg>
+                                                        <!-- <img src="/uploads/users/ib.png" alt="avatar" class="avatar is-tiny"> -->
+                                                        <div class="suffix is-wider">
+                                                            <p class="prefix is-wide co-black font-14 ff-medium">
+                                                                The Breadth and Depth of DSP
+                                                            </p>
+                                                            <p
+                                                                class="resource-type prefix is-wide co-readablegray font-14 ff-regular">
+                                                                Pdf
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <button class="btn btn-download">
+                                                        <svg class="icon-16">
+                                                            <use href="/uploads/icons.svg#download"></use>
+                                                        </svg>
+                                                        <span class="suffix">
+                                                            Download
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                                <div class="icontxt-frame bdr-top ">
+                                                    <div class="d-flx al-i-c">
+                                                        <svg class="icon-24">
+                                                            <use href="/uploads/icons.svg#pdf"></use>
+                                                        </svg>
+                                                        <!-- <img src="/uploads/users/ib.png" alt="avatar" class="avatar is-tiny"> -->
+                                                        <div class="suffix is-wider">
+                                                            <p class="prefix is-wide co-black font-14 ff-medium">
+                                                                The Breadth and Depth of DSP
+                                                            </p>
+                                                            <p
+                                                                class="resource-type prefix is-wide font-14 ff-regular co-readablegray">
+                                                                Pdf
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <button class="btn btn-download">
+                                                        <svg class="icon-16">
+                                                            <use href="/uploads/icons.svg#download"></use>
+                                                        </svg>
+                                                        <span class="suffix">
+                                                            Download
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </li>
+                                <li>
+                                    <section class="">
+                                        <div class="lesson-number wrap">
+                                            <h1 class="mb-0 ">2 <span class=" co-lightgray font-14">Lessons have been
+                                                    added to this course</span></h1>
+                                        </div>
+                                        <div class="mb-2 Resource-list">
+                                            <div class="mt-2">
+                                                <div class="icontxt-frame bdr-top">
+                                                    <div class="d-flx al-i-c">
+                                                        <svg class="icon-24">
+                                                            <use href="/uploads/icons.svg#video-play"></use>
+                                                        </svg>
+                                                        <div class="suffix is-wider">
+                                                            <p class="prefix is-wide co-black font-14 ff-medium">
+                                                                Introduction to Digital Filters
+                                                            </p>
+                                                            <p class="prefix is-wide due font-14 ff-regular">
+                                                                Due Today at 10:00am
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <button class="btn btn-primary">
+                                                        Take Assessment
+                                                    </button>
+                                                </div>
+                                                <div class="icontxt-frame bdr-top ">
+                                                    <div class="d-flx al-i-c">
+                                                        <svg class="icon-24">
+                                                            <use href="/uploads/icons.svg#pdf"></use>
+                                                        </svg>
+                                                        <!-- <img src="/uploads/users/ib.png" alt="avatar" class="avatar is-tiny"> -->
+                                                        <div class="suffix is-wider">
+                                                            <p class="prefix is-wide co-black font-14 ff-medium">
+                                                                The Breadth and Depth of DSP
+                                                                <span class="submitted font-8">
+                                                                    Submitted
+                                                                </span>
+                                                            </p>
+                                                            <p
+                                                                class="resource-type prefix is-wide co-readablegray font-14 ff-regular">
+                                                                Pdf
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <button class="btn btn-primary">
+                                                        Take Assessment
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </li>
+                                <li>
+
+                                </li>
+                                <li>
+
+                                </li>
+                                <li>
+                                    <section class="">
+                                        <div class="lesson-number wrap">
+                                            <h1 class="mb-0 ">3 <span class=" co-lightgray font-14">Lessons have been
+                                                    added to this course</span></h1>
+                                        </div>
+                                        <div class="bdr-top wrap mb-2 Single-Lesson">
+                                            <p class="font-18 ff-medium mt-1h co-blacklite mb-0">Foundations</p>
+                                            <p class="font-14">3 Files</p>
+                                            <div class="lesson-card mt-2">
+                                                <div class="icontxt-frame">
+                                                    <div class="d-flx al-i-c">
+                                                        <svg class="icon-24">
+                                                            <use href="/uploads/icons.svg#video-play"></use>
+                                                        </svg>
+                                                        <div class="suffix is-wider">
+                                                            <p class="prefix is-wide co-black font-14 ff-medium">
+                                                                Introduction to Digital Filters
+                                                            </p>
+                                                            <p
+                                                                class="prefix is-wide co-readablegray font-14 ff-regular">
+                                                                Video
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <button class="btn btn-download">
+                                                        <svg class="icon-16">
+                                                            <use href="/uploads/icons.svg#download"></use>
+                                                        </svg>
+                                                        <span class="suffix">
+                                                            Download
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                                <div class="icontxt-frame bdr-top">
+                                                    <div class="d-flx al-i-c">
+                                                        <svg class="icon-24">
+                                                            <use href="/uploads/icons.svg#pdf"></use>
+                                                        </svg>
+                                                        <!-- <img src="/uploads/users/ib.png" alt="avatar" class="avatar is-tiny"> -->
+                                                        <div class="suffix is-wider">
+                                                            <p class="prefix is-wide co-black font-14 ff-medium">
+                                                                The Breadth and Depth of DSP
+                                                            </p>
+                                                            <p
+                                                                class="resource-type prefix is-wide co-readablegray font-14 ff-regular">
+                                                                Pdf
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <button class="btn btn-download">
+                                                        <svg class="icon-16">
+                                                            <use href="/uploads/icons.svg#download"></use>
+                                                        </svg>
+                                                        <span class="suffix">
+                                                            Download
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                                <div class="icontxt-frame bdr-top ">
+                                                    <div class="d-flx al-i-c">
+                                                        <svg class="icon-24">
+                                                            <use href="/uploads/icons.svg#pdf"></use>
+                                                        </svg>
+                                                        <!-- <img src="/uploads/users/ib.png" alt="avatar" class="avatar is-tiny"> -->
+                                                        <div class="suffix is-wider">
+                                                            <p class="prefix is-wide co-black font-14 ff-medium">
+                                                                The Breadth and Depth of DSP
+                                                            </p>
+                                                            <p
+                                                                class="resource-type prefix is-wide font-14 ff-regular co-readablegray">
+                                                                Pdf
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <button class="btn btn-download">
+                                                        <svg class="icon-16">
+                                                            <use href="/uploads/icons.svg#download"></use>
+                                                        </svg>
+                                                        <span class="suffix">
+                                                            Download
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="rhs-flex full-h">
+                    <p class="font-14 ff-medium p-2 borderline mb-0">
+                        Course Announcements
+                    </p>
+                    <div class="rhs-innerframe">
+                        <div class="announcement-box">
+                            <p class="font-14 ff-medium co-blacklite">
+                                Adjusted Assignment Date
+                            </p>
+                            <p class="font-14 ff-regular">
+                                Please take note that the assignment submission date for feedback control...
+                            </p>
+                            <p class="font-14 ff-regular mt-2 mb-2">March 12th 2019 </p>
+                            <p>
+                                <a href="" class="font-14 ff-regular co-primary">View Announcements</a>
+                            </p>
+                        </div>
+                        <div class="announcement-box">
+                            <p class="font-14 ff-medium co-blacklite">
+                                Adjusted Assignment Date
+                            </p>
+                            <p class="font-14 ff-regular">
+                                Please take note that the assignment submission date for feedback control...
+                            </p>
+                            <p class="font-14 ff-regular mt-2 mb-2">March 12th 2019 </p>
+                            <p>
+                                <a href="" class="font-14 ff-regular co-primary">View Announcements</a>
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    Collapse
+
+
+
+
+</body>
+
+</html>
